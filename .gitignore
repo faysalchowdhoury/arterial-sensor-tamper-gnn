@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+build/
+dist/
+# trained model (regenerate with `sensorguard study`)
+models/
+# PEMS-BAY data (download from Zenodo record 5146275)
+data/

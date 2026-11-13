@@ -1,0 +1,192 @@
+{
+  "methods": {
+    "persistence": {
+      "attacks": {
+        "fake_jam": {
+          "n": 30,
+          "detected": 0.9666666666666667,
+          "median_ttd_min": 0.0,
+          "auc": 0.8696880752892586
+        },
+        "stuck": {
+          "n": 30,
+          "detected": 0.0,
+          "median_ttd_min": null,
+          "auc": 0.02102852497523423
+        },
+        "drift": {
+          "n": 30,
+          "detected": 0.0,
+          "median_ttd_min": null,
+          "auc": 0.692333299415971
+        },
+        "noise": {
+          "n": 30,
+          "detected": 0.9666666666666667,
+          "median_ttd_min": 10.0,
+          "auc": 0.9929374480283959
+        },
+        "replay": {
+          "n": 30,
+          "detected": 0.03333333333333333,
+          "median_ttd_min": 10.0,
+          "auc": 0.5414695260706103
+        }
+      },
+      "val_mae_mph": 0.9444999098777771,
+      "false_alarm_rate": 0.0017839285545289071,
+      "false_alarm_rate_real_congestion": 0.011537949132639941,
+      "false_alarm_rate_free_flow": 0.0011991042477641025,
+      "false_alarm_rate_next_to_tampered": 0.00206351765274867,
+      "false_alarm_episodes_per_sensor_day": 0.2755107187894073,
+      "inference_ms_per_snapshot": 0.009506772741144701
+    },
+    "spatial": {
+      "attacks": {
+        "fake_jam": {
+          "n": 30,
+          "detected": 0.9666666666666667,
+          "median_ttd_min": 0.0,
+          "auc": 0.8313526022776162
+        },
+        "stuck": {
+          "n": 30,
+          "detected": 0.0,
+          "median_ttd_min": null,
+          "auc": 0.3075054381520804
+        },
+        "drift": {
+          "n": 30,
+          "detected": 0.03333333333333333,
+          "median_ttd_min": 25.0,
+          "auc": 0.6336721572236018
+        },
+        "noise": {
+          "n": 30,
+          "detected": 1.0,
+          "median_ttd_min": 10.0,
+          "auc": 0.9920024794533583
+        },
+        "replay": {
+          "n": 30,
+          "detected": 0.06666666666666667,
+          "median_ttd_min": 2.5,
+          "auc": 0.5876066803575692
+        }
+      },
+      "val_mae_mph": 1.1036648651314926,
+      "false_alarm_rate": 0.0018915356016338044,
+      "false_alarm_rate_real_congestion": 0.00823209743432447,
+      "false_alarm_rate_free_flow": 0.0015113729139905093,
+      "false_alarm_rate_next_to_tampered": 0.008640980170885056,
+      "false_alarm_episodes_per_sensor_day": 0.29508196721311475,
+      "inference_ms_per_snapshot": 0.23565706272890852
+    },
+    "stgnn": {
+      "attacks": {
+        "fake_jam": {
+          "n": 30,
+          "detected": 0.9333333333333333,
+          "median_ttd_min": 0.0,
+          "auc": 0.9245072373479644
+        },
+        "stuck": {
+          "n": 30,
+          "detected": 0.0,
+          "median_ttd_min": null,
+          "auc": 0.09302240676923747
+        },
+        "drift": {
+          "n": 30,
+          "detected": 0.03333333333333333,
+          "median_ttd_min": 50.0,
+          "auc": 0.7397974574057294
+        },
+        "noise": {
+          "n": 30,
+          "detected": 0.9666666666666667,
+          "median_ttd_min": 5.0,
+          "auc": 0.9938714831212637
+        },
+        "replay": {
+          "n": 30,
+          "detected": 0.03333333333333333,
+          "median_ttd_min": 10.0,
+          "auc": 0.5482578190945832
+        }
+      },
+      "val_mae_mph": 0.8766783475875854,
+      "false_alarm_rate": 0.001608322265931013,
+      "false_alarm_rate_real_congestion": 0.012938366159480234,
+      "false_alarm_rate_free_flow": 0.0009290039261143728,
+      "false_alarm_rate_next_to_tampered": 0.0014831533129131065,
+      "false_alarm_episodes_per_sensor_day": 0.23157629255989912,
+      "inference_ms_per_snapshot": 4.676443242521368
+    },
+    "stgnn_nb": {
+      "attacks": {
+        "fake_jam": {
+          "n": 30,
+          "detected": 1.0,
+          "median_ttd_min": 7.5,
+          "auc": 0.9972372087818566
+        },
+        "stuck": {
+          "n": 30,
+          "detected": 0.06666666666666667,
+          "median_ttd_min": 100.0,
+          "auc": 0.5503457321579533
+        },
+        "drift": {
+          "n": 30,
+          "detected": 0.36666666666666664,
+          "median_ttd_min": 100.0,
+          "auc": 0.8585276128050817
+        },
+        "noise": {
+          "n": 30,
+          "detected": 0.13333333333333333,
+          "median_ttd_min": 27.5,
+          "auc": 0.923586015684479
+        },
+        "replay": {
+          "n": 30,
+          "detected": 0.03333333333333333,
+          "median_ttd_min": 15.0,
+          "auc": 0.5376949892329349
+        }
+      },
+      "val_mae_mph": 2.8256969451904297,
+      "false_alarm_rate": 0.004796400106134899,
+      "false_alarm_rate_real_congestion": 0.04532455903904127,
+      "false_alarm_rate_free_flow": 0.0023664429143713246,
+      "false_alarm_rate_next_to_tampered": 0.03391907141705627,
+      "false_alarm_episodes_per_sensor_day": 0.22789407313997478,
+      "inference_ms_per_snapshot": 4.728316002747252
+    }
+  },
+  "events": 150,
+  "test_days": 61.0,
+  "fit_s": 776.0306463000006,
+  "val_mae_curve": [
+    0.9569127559661865,
+    0.9408548474311829,
+    0.9258418679237366,
+    0.9084424376487732,
+    0.8993290662765503,
+    0.8973315954208374
+  ],
+  "val_mae_curve_nb": [
+    3.5048959255218506,
+    3.212301731109619,
+    3.0405220985412598,
+    2.9873909950256348,
+    2.854083776473999,
+    2.8177521228790283
+  ],
+  "congested_share_of_test": 0.05655667647470926,
+  "graph": {
+    "nodes": 325,
+    "edges": 1329
+  }
+}
